@@ -232,14 +232,53 @@ body {
 p {
   margin: 0;
 }
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+footer{
+  margin-top: 20px;
+}
 }
 
 
 @media screen and (max-width: 768px) {
+
+  .main-section {
+    width: 85%;
+    height: 100%;
+    float: none;
+    margin: auto;
+    overflow: auto;
+  }
+  footer{
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 640px) {
   #masthead {
     position: static;
+  }
+  #logo {
+    clear: left;
+    width: 100%;
+  }
+  #main-container {
+    padding: 0 0;
+  }
+  .auth-image {
+    clear: left;
+    width: 100%;
+    margin: 10px auto;
+  }
+  .main-section p {
+    margin: 10px auto;
+  }
+  nav {
+    clear: both;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
   }
 }
